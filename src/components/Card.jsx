@@ -1,12 +1,10 @@
 import { EditButton } from "./EditButton";
 
-export const Card = (props) => {
-  const { isAdmin } = props;
-
+export const Card = () => {
   return (
     <div>
       <p>山田太郎</p>
-      <EditButton isAdmin={isAdmin} />
+      <EditButton />
     </div>
   );
 };
